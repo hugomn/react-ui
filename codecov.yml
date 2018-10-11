@@ -1,0 +1,19 @@
+codecov:
+  token: 2db61fb2-f3f1-4b71-9e8b-2cd133b5fdac
+comment: 
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: false  # if true: only post the comment if coverage changes
+  require_base: no        # [yes :: must have a base report to post]
+  require_head: no
+  branches: null
+coverage:
+  notify:
+    slack:
+      default:
+        url: "https://hooks.slack.com/services/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"
+        threshold: 0%
+	only_pulls: false
+        branches: null
+        flags: null
+	paths: null

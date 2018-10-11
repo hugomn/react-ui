@@ -1,0 +1,4 @@
+@primaryColor   : #0830eb;
+@primaryColorText: #101d2e;
+@secondaryColor : #101d2e;
+@secondaryColorText: @white;

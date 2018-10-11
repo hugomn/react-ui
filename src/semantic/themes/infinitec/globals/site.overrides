@@ -1,0 +1,51 @@
+/*******************************
+           Overrides
+*******************************/
+
+h1 {
+    margin: 0 0 24px;
+    font-weight: normal;
+    padding: 0;
+    color: @darkSecondaryColor !important;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-weight: normal;
+  padding: 0;
+  color: @darkSecondaryColor !important;
+}
+
+.container {
+  h1 {
+    font-weight: normal;
+  }
+  h1:last-child,
+  h2:last-child,
+  h3:last-child,
+  h4:last-child,
+  h5:last-child {
+    margin-bottom: 24px;
+  }
+}
+
+// TODO: Paragraph margins based on previous bootstrap configuration. We need to think if it's really needed
+/*******************************
+             Text
+*******************************/
+
+p:first-child {
+  margin-top: 8px;
+}
+p:last-child {
+  margin-bottom: 8px;
+}
+
+.ui.toggle.checkbox input:checked ~ .box:after,
+.ui.toggle.checkbox input:checked ~ label:after {
+  background: @primaryColor;
+};
+
+a {
+  transition: color .2s ease-in;
+}

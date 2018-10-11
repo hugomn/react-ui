@@ -1,0 +1,16 @@
+/* Checkmark */
+.ui.checkbox label:after,
+.ui.checkbox .box:after {
+  font-family: 'sme';
+}
+
+/* Checked */
+.ui.checkbox input:checked ~ .box:after,
+.ui.checkbox input:checked ~ label:after {
+  content: '\E922';
+}
+
+.ui.checkbox input:not([type=radio]):indeterminate ~ .box:after,
+.ui.checkbox input:not([type=radio]):indeterminate ~ label:after {
+  content: '\E932';
+}

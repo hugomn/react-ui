@@ -1,0 +1,6 @@
+@primaryColorText: @white;
+@secondaryColor : #777777;
+@secondaryColorText: #777777;
+@darkSecondaryColor: #101d2e;
+@textTransform: uppercase;
+@fontWeight: 600;

@@ -1,0 +1,17 @@
+/*******************************
+             Label
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@backgroundColor: @primaryColor;
+@borderRadius: 0em;
+@color: @primaryColorText;
+
+@labelActiveBackgroundColor: @lightPrimaryColor;
+@labelHoverBackgroundColor: @lightPrimaryColor;
+@labelActiveTextColor: @primaryColorText;
+
+@fontWeight: normal;

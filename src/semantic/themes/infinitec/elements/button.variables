@@ -1,0 +1,51 @@
+/*******************************
+            Button
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+@backgroundColor: transparent;
+@defaultBorderColor: @gray-light-2;
+@hoveredTextColor: @primaryColorText;
+@defaultBorderColor: @gray-light-2;
+@inputVerticalPadding: @relative16px;
+
+/* Text */
+@fontWeight: inherit;
+@textColor: @primaryColorText;
+@primaryTextColor: @primaryColorText;
+@secondaryTextColor: @primaryTextColor;
+@borderRadius: 2px;
+@borderBoxShadowColor: @gray-light-2;
+
+/*-------------------
+        States
+--------------------*/
+
+@hoverBackgroundColor: @gray-lighter;
+
+/*-------------------
+         Hover
+ --------------------*/
+ 
+ @secondaryStateBackGround: @hoverBackgroundColor; 
+ 
+ 
+ /*---  Colors  ---*/
+ @secondaryColorHover: @secondaryStateBackGround;
+ 
+ /*-------------------
+         Focus
+ --------------------*/
+ 
+ /*---  Colors  ---*/
+ @secondaryColorFocus: @secondaryStateBackGround;
+ 
+ 
+ /*-------------------
+     Down (:active)
+ --------------------*/
+ 
+ /*---  Colors  ---*/
+ @secondaryColorDown: @secondaryStateBackGround;

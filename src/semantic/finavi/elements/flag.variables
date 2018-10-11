@@ -1,0 +1,6 @@
+/*-------------------
+   Flag Variables
+--------------------*/
+
+// To fix flag @spritePath in default theme
+// (See https://github.com/gadyonysh/semantic-ui-less-module-loader#to-fix-flag-spritepath-in-default-theme)

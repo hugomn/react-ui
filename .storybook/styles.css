@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "sme";
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("../src/assets/finavi/fonts/sme.ttf?1xvqup") format("truetype"),
+    url("../src/assets/finavi/fonts/sme.woff?1xvqup") format("woff"),
+    url("../src/assets/finavi/fonts/sme.svg?1xvqup#sme") format("svg");
+}
+
+.sb-main > div > div:not(:nth-child(2)) > div {
+  border: none !important;
+  padding: 0px 40px !important;
+  margin-bottom: 30px !important;
+}
+
+.sb-main > div > div:nth-child(2) {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.ui.fluid {
+  flex:1
+}
+
+.storySummary {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 0;
+  color: #24292e;
+  font-size: 16px;
+}
+
+.proptypesTable {
+  font-size: 90%;
+  font-weight: 400;
+  margin-top: 25px;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+
+.proptypesTable,
+.proptypesTable th,
+.proptypesTable td {
+  border: 1px solid rgb(238, 238, 238);
+  padding: 6px;
+}
+
+.proptypesTable .propName {
+  font-size: 87.5%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  white-space: pre;
+  display: inline-block;
+  padding: 2px;
+  font-family: monospace, monospace;
+  border: 0px;
+}
+
+.proptypesTable th {
+  text-align: left;
+  padding-right: 8px;
+}
+
+code {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 2px 5px;
+  border: 1px solid #eae9e9;
+  border-radius: 4;
+  background-color: #f3f2f2;
+  color: #3a3a3a;
+}

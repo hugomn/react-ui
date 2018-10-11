@@ -1,0 +1,5 @@
+// TODO: remove when it's fixed in the main lib
+// https://github.com/Semantic-Org/Semantic-UI/issues/6267
+.ui.page.modals.dimmer.transition.visible.active {
+  display: flex !important;
+}

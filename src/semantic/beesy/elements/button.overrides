@@ -1,0 +1,4 @@
+.ui.secondary.button,
+.ui.secondary.button:hover {
+  color: @secondaryColor;
+}

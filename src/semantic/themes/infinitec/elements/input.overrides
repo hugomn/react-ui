@@ -1,0 +1,12 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+@borderFocusWidth: 2px;
+
+.ui.input.focus input,
+.ui.input input:focus  {
+  border: solid @borderWidth transparent;
+  outline: solid @borderFocusWidth @focusedFormBorderColor;
+  background: background: @gray-lightest;
+}

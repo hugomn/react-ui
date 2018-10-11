@@ -1,0 +1,26 @@
+/*******************************
+           Overrides
+*******************************/
+
+.ui.form input[type="text"],
+.ui.form input[type="email"],
+.ui.form input[type="date"],
+.ui.form input[type="password"],
+.ui.form input[type="number"],
+.ui.form input[type="url"],
+.ui.form input[type="tel"] {
+  padding: 13px 0 13px 16px;
+  font-size: 16px;
+}
+
+.ui.form textarea{
+  font-size: 16px;
+}
+
+.ui.form .ui.icon.input > .icon {
+  width: 1em;
+}
+
+.ui.form textarea::placeholder{
+  color:#ccc;
+}

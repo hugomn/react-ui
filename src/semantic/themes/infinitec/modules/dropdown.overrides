@@ -1,0 +1,43 @@
+/* Caret */
+
+.ui.dropdown > .dropdown.icon {
+	font-family: 'sme';
+    font-style: normal;
+}
+
+/*Caret down*/
+
+.ui.dropdown> .dropdown.icon:before {
+	content: '\E908';
+}
+
+.ui.dropdown>.dropdown.icon {
+	transition: all 0.2s ease-in-out;
+    transform: rotateZ(0deg);
+}
+
+.ui.active.selection.dropdown {
+	background: @gray-lightest;
+}
+
+.ui.active.dropdown > .dropdown.icon {
+	transform: rotateZ(180deg);
+}
+
+.ui.disabled.dropdown, .ui.dropdown .menu>.disabled.item {
+	background: @gray-lighter;
+	opacity: 1;
+}
+
+.ui.multiple.search.dropdown>input.search{
+  display:inline-block;
+  height:auto;
+}
+
+.ui.form .selection.dropdown:not(.active) {
+  border: 1px solid @gray-light-2;
+}
+
+.ui.selection.dropdown, .ui.dropdown .menu > .item{
+  font-size: @selectionFontSize;
+}

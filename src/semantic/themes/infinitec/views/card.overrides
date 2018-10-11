@@ -1,0 +1,4 @@
+
+.ui.cards > .card > .content > .header:not(.ui), .ui.card > .content > .header:not(.ui) {
+  margin: 9px  0 13px;
+}

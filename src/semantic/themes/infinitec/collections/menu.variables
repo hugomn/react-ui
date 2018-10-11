@@ -1,0 +1,21 @@
+@dropdownMenuBoxShadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+
+@dropdownBackground: #FFFFFF;
+@dropdownMenuDistance: 0em;
+@dropdownMenuBorderRadius: @borderRadius;
+
+@dropdownItemFontSize: @relativeMedium;
+@dropdownItemPadding: @relativeHuge @relativeHuge;
+@dropdownItemBackground: transparent;
+@dropdownItemColor: @gray-light;
+@dropdownItemTextTransform: uppercase;
+@dropdownItemFontWeight: @normal;
+@dropdownItemBoxShadow: none;
+@dropdownItemTransition: none;
+
+@dropdownItemIconFloat: none;
+@dropdownItemIconFontSize: @relativeMedium;
+@dropdownItemIconMargin: 0em 0.75em 0em 0em;
+
+@dropdownHoveredItemBackground: @transparentBlack;
+@dropdownHoveredItemColor: @selectedTextColor;
