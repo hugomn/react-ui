@@ -1,4 +1,4 @@
-# @infinitecsolutions/ui
+# react-ui
 
 
 ![npm](https://img.shields.io/npm/v/@infinitecsolutions/ui.svg)
@@ -7,7 +7,7 @@
 ![Made with coffee](https://img.shields.io/badge/made%20with-%E2%98%95%EF%B8%8F%20coffee-yellow.svg)
 [![Made with Mate](https://img.shields.io/badge/made%20with-%F0%9F%8D%B5%20Mate-green.svg)](https://github.com/rominamoya)
 
-Infinitec Solutions official UI library! 👨🏻‍🎨
+React UI library! 👨🏻‍🎨
 
 ## How it works
 
@@ -17,8 +17,7 @@ Official documentation: [https://infinitecsolutions.github.io](https://infinitec
 
 ## Credits
 
-Created by the amazing [@infinitecsolutions](https://github.com/infinitecsolutions) front-end team. [We are hiring](https://infinitecsolutionsgmbh.recruitee.com/)! Join us!
-
+Created by @hugomn
 ## License
 
 Released under the [MIT License](http://www.opensource.org/licenses/MIT).
