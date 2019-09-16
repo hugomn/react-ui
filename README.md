@@ -11,7 +11,7 @@ React UI library! 👨🏻‍🎨
 
 ## How it works
 
-Official documentation: [https://infinitecsolutions.github.io](https://infinitecsolutions.github.io).
+TBD.
 
 ## Contributing
 
